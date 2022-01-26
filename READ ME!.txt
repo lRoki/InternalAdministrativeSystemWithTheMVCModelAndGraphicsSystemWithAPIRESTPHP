@@ -1,0 +1,1 @@
+All bootstrap files must be included in the CSS and JS foldersolder

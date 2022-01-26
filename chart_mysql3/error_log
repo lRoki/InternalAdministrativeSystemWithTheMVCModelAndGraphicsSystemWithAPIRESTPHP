@@ -1,0 +1,1 @@
+[17-Dec-2021 20:02:12 America/Fortaleza] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home1/conse491/public_html/sistema-interno/chart_mysql/apirest_php/graficos.php on line 31

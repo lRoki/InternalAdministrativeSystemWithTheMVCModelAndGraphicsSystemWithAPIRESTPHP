@@ -1,0 +1,56 @@
+[22-Dec-2021 10:47:40 America/Fortaleza] PHP Warning:  file_get_contents(app/view/template.html): failed to open stream: No such file or directory in /home1/conse491/public_html/sistema-interno/app/controller/Template.class.php on line 9
+[22-Dec-2021 10:47:44 America/Fortaleza] PHP Warning:  file_get_contents(app/view/template.html): failed to open stream: No such file or directory in /home1/conse491/public_html/sistema-interno/app/controller/Template.class.php on line 9
+[22-Dec-2021 11:44:46 America/Fortaleza] PHP Warning:  require(../protect.php): failed to open stream: No such file or directory in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 10
+[22-Dec-2021 11:44:46 America/Fortaleza] PHP Warning:  require(../protect.php): failed to open stream: No such file or directory in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 10
+[22-Dec-2021 11:44:46 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../protect.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 10
+[22-Dec-2021 11:44:50 America/Fortaleza] PHP Warning:  require(../protect.php): failed to open stream: No such file or directory in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 10
+[22-Dec-2021 11:44:50 America/Fortaleza] PHP Warning:  require(../protect.php): failed to open stream: No such file or directory in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 10
+[22-Dec-2021 11:44:50 America/Fortaleza] PHP Fatal error:  require(): Failed opening required '../protect.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 10
+[18-Jan-2022 10:15:50 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method app\model\UsuarioModel::setAgencia() in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php:85
+Stack trace:
+#0 /home1/conse491/public_html/sistema-interno/app/controller/Template.class.php(19): app\controller\Usuario->salvar()
+#1 /home1/conse491/public_html/sistema-interno/app/controller/App.class.php(19): app\controller\Template::start()
+#2 /home1/conse491/public_html/sistema-interno/index.php(19): app\controller\App->run()
+#3 {main}
+  thrown in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 85
+[18-Jan-2022 10:16:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method app\model\UsuarioModel::setAgencia() in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php:85
+Stack trace:
+#0 /home1/conse491/public_html/sistema-interno/app/controller/Template.class.php(19): app\controller\Usuario->salvar()
+#1 /home1/conse491/public_html/sistema-interno/app/controller/App.class.php(19): app\controller\Template::start()
+#2 /home1/conse491/public_html/sistema-interno/index.php(19): app\controller\App->run()
+#3 {main}
+  thrown in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 85
+[18-Jan-2022 10:17:16 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method app\model\UsuarioModel::setAgencia() in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php:85
+Stack trace:
+#0 /home1/conse491/public_html/sistema-interno/app/controller/Template.class.php(19): app\controller\Usuario->salvar()
+#1 /home1/conse491/public_html/sistema-interno/app/controller/App.class.php(19): app\controller\Template::start()
+#2 /home1/conse491/public_html/sistema-interno/index.php(19): app\controller\App->run()
+#3 {main}
+  thrown in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 85
+[18-Jan-2022 10:17:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined method app\model\UsuarioModel::setAgencia() in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php:85
+Stack trace:
+#0 /home1/conse491/public_html/sistema-interno/app/controller/Template.class.php(19): app\controller\Usuario->salvar()
+#1 /home1/conse491/public_html/sistema-interno/app/controller/App.class.php(19): app\controller\Template::start()
+#2 /home1/conse491/public_html/sistema-interno/index.php(19): app\controller\App->run()
+#3 {main}
+  thrown in /home1/conse491/public_html/sistema-interno/app/controller/Usuario.class.php on line 85
+[20-Jan-2022 15:33:58 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:34:00 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:34:02 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:34:10 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:34:13 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:34:14 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:35:00 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:35:20 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:35:24 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:35:24 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:36:36 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:36:38 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:37:00 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:37:08 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:37:09 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:37:10 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:40:28 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:40:53 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:44:17 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145
+[20-Jan-2022 15:44:19 America/Fortaleza] PHP Fatal error:  Cannot redeclare app\model\UsuarioModel::setBanco() in /home1/conse491/public_html/sistema-interno/app/model/UsuarioModel.class.php on line 145

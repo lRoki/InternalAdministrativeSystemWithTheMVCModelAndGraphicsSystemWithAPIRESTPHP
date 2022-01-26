@@ -1,0 +1,6 @@
+[17-Dec-2021 20:02:12 America/Fortaleza] PHP Parse error:  syntax error, unexpected '$sql' (T_VARIABLE) in /home1/conse491/public_html/sistema-interno/chart_mysql/apirest_php/graficos.php on line 31
+[21-Jan-2022 16:21:12 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order DESC limit 0,5' at line 1 in /home1/conse491/public_html/sistema-interno/chart_mysql4/graficos.php:31
+Stack trace:
+#0 /home1/conse491/public_html/sistema-interno/chart_mysql4/graficos.php(31): PDOStatement->execute()
+#1 {main}
+  thrown in /home1/conse491/public_html/sistema-interno/chart_mysql4/graficos.php on line 31
